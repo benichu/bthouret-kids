@@ -4,8 +4,13 @@ require "bthouret/dad"
 module Bthouret
   module Kids
     class Speech
-      def self.hi
-        Bthouret::Dad::Speech.hi
+      def self.hi(people = [])
+        angels = ''
+        people.size.times { angels += '👼 ' }
+        angels = '👻 ' if angels.empty?
+        puts "#{angels} Hi Dad!"
+        puts '...'
+        Bthouret::Dad::Speech.hi people
       end
     end
   end
