@@ -20,7 +20,7 @@ Or install it yourself as:
 
     $ gem install bthouret-kids
 
-requires `RUBY_VERSION >= 1.9.3`
+requires `RUBY_VERSION ~> 2.1`
 
 ## Usage
 

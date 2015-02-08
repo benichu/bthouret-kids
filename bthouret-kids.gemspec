@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description           = %q{An example gem used by the presentation: 'gem install demystified'}
   spec.homepage              = "https://github.com/benichu/bthouret-kids"
   spec.license               = "MIT"
-  spec.required_ruby_version = ">= 1.9.3"
+  spec.required_ruby_version = "~> 2.1" # Only with ruby 2.1.x
 
   spec.files                 = `git ls-files -z`.split("\x0")
   spec.executables           = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
