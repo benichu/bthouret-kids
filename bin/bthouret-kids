@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'bthouret/kids'
+Bthouret::Kids::Speech.hi ARGV
